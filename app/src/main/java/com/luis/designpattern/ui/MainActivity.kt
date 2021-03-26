@@ -1,8 +1,8 @@
-package com.luis.designpattern
+package com.luis.designpattern.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import com.luis.designpattern.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

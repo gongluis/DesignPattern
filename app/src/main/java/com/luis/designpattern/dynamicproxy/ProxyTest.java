@@ -12,6 +12,7 @@ import java.lang.reflect.Proxy;
  */
 public class ProxyTest {
     public static void main(String[] args) {
+        //静态代理
         SuperStarDao superStarDao = new SuperStarDao();
         BrokerDaoProxy brokerDaoProxy = new BrokerDaoProxy(superStarDao);
         brokerDaoProxy.doWork();
